@@ -9,8 +9,12 @@ import java.awt.*;
 
 public class MainFrame extends JFrame {
 
-    private JLabel LblNom, LblAdresse;
+    private JLabel LblNomPizz, LblAdressePizz;
 
     private JPanel PnlCommande1, PnlCommande2, PnlCommande3, PnlCommande4, PnlCommande5; 
+
+
+
+
 
 }
