@@ -1,5 +1,6 @@
 package View;
 
+import java.awt.Dimension;
 import javax.swing.*;
 
 public class ConnexionFrame extends JFrame {
@@ -52,6 +53,8 @@ public class ConnexionFrame extends JFrame {
         PnlConnection.add(PnlNomPizzeria);
         PnlConnection.add(LblIDPizzeria);
         PnlConnection.add(PnlBoutonValider);
+    
+        return PnlConnection;
     }
 
     public ConnexionFrame() {

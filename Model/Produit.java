@@ -1,5 +1,7 @@
 package Model;
 
+import java.util.ArrayList;
+
 public class Produit {
 
     int IDProduit;
