@@ -4,10 +4,10 @@ public class Ingredient {
 
     int IDIngredient;
     String NomIngredient;
-    int nbUtilisations;
+    int _nbUtilisations;
 
     public String toString() {
-        String str = "\t\tIngrédient : " + NomIngredient;
+        String str = "\t\tIngrédient : " + NomIngredient + "\tQuantité : " + _nbUtilisations + "\n";
         return str;
     }
 }

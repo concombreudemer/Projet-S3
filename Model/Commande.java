@@ -8,12 +8,12 @@ public class Commande {
     int IDCommande;
     Date DateCommande;
 
-    ArrayList<QuantiteProduit> _produits;
+    ArrayList<Produit> _produits;
 
     public String toString() {
         String str = "Commande : " + IDCommande;
         for (int i=0 ; i<_produits.size() ; i++){
-            str += _produits[i].getProduit().toString();
+            str += _produits.get(i).toString();
         }
         return str;
     }
