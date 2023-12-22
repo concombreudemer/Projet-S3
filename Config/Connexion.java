@@ -3,7 +3,7 @@ package Config;
 import java.sql.*;
 //import java.util.Scanner;
 
-public class Connexion {
+public abstract class Connexion {
 
     public static Connection openConnection(String url){
         Connection co = null;

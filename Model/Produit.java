@@ -18,4 +18,12 @@ public class Produit {
         }
         return str;
     }
+    
+    public Produit (int id, String nom, double prix, int nb, ArrayList<Ingredient> ing) {
+    	IDProduit = id;
+        NomProduit = nom;
+        PrixProduit = prix;
+        _nbUtilisations = nb;
+        _ingredients = ing;
+    }
 }

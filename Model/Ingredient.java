@@ -10,4 +10,10 @@ public class Ingredient {
         String str = "\t\tIngrédient : " + NomIngredient + "\tQuantité : " + _nbUtilisations + "\n";
         return str;
     }
+
+    public Ingredient (int id, String nom, int nb) {
+    	IDIngredient = id;
+    	NomIngredient = nom;
+    	_nbUtilisations = nb;
+    }
 }
