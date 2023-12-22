@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Pizzeria {
 
-    int IDPizzeria;
+    static int IDPizzeria;
     ArrayList<Commande> _commandes;
 
     public void retirerCommande (int indice) {
@@ -13,6 +13,10 @@ public class Pizzeria {
         } catch(IndexOutOfBoundsException e) {
             System.out.println("ERREUR : Pas d'objet à cet indice !");
         }
+    }
+    
+    public static int getIDPizzeria () {
+    	return IDPizzeria;
     }
     
 }
